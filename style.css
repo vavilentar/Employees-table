@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:regular);
+
+table {
+	border: 1px solid grey;
+	margin-top: 10px;
+}
+
+th {
+	background-color:aquamarine;
+	border-bottom: 1px solid grey;
+	width: 150px;
+}
+
+td {
+	width: 150px;
+}
+
+body {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Ubuntu;
+	font-size: 0.8em;
+}
+
+button {
+	font-family: Ubuntu;
+	background-color:aquamarine;
+	border: 1px solid black;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+form {
+	margin-top: 10px;
+}
+
+tr:nth-child(odd) {
+	background-color: rgb(224, 224, 224);
+}
+
+.id {
+	width: 20px;
+}
+
+@media (max-width: 426px) {
+	body {
+		margin: 0 10px;
+	}
+}
