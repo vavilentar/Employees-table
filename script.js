@@ -12,7 +12,7 @@ deleteBtn.addEventListener('click', (e) => {
 		inputId.style.backgroundColor = 'white';
 	} else {
 		alert('Введите ID записи');
-		inputId.style.backgroundColor = 'red';
+		inputId.style.backgroundColor = '#ff5656';
 	}
 });
 
@@ -31,7 +31,7 @@ sendBtn.addEventListener('click', (e) => {
 		counter++;
 	} else {
 		alert('Введите дату и время');
-		dateTime.style.backgroundColor = 'red';
+		dateTime.style.backgroundColor = '#ff5656';
 	}
 
 });

@@ -27,8 +27,6 @@ body {
 button {
 	font-family: Ubuntu;
 	background-color:aquamarine;
-	border: 1px solid black;
-	border-radius: 10px;
 	cursor: pointer;
 }
 
@@ -48,4 +46,8 @@ tr:nth-child(odd) {
 	body {
 		margin: 0 10px;
 	}
+}
+
+.name, .place, .day, .inputDelete, button {
+	border: 1px solid black;
 }
